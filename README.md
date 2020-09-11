@@ -1,2 +1,0 @@
-# rpctool
-Discord rpc tool 
