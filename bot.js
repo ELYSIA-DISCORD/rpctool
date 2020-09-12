@@ -4,11 +4,12 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
+  console.log(`Now playing rpc for ${client.user.tag}!`);
 });
 
 setInterval(function() {
 
-  let activities = [`enter your text`]
+  let activities = [`ENTER YOUR TEXT`]
 
  let activity = activities[Math.floor(Math.random()*activities.length)]
  
@@ -18,9 +19,11 @@ setInterval(function() {
 }, 5000)
 
 
-  console.log(`Please join https://discord.gg/qubzgXe for more`);
 
 
 
 
-client.login('enter your token');
+
+client.login('ENTER YOUR TOKEN');
+
+//this is the patched version
